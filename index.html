@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+     
+
+    
+<head>
+    <meta charset="utf-8">
+    <met name="description" content="Portfolio de José Manuel Acevedo, estudiante de la Tecnicatuira de Desarrollo de Software en el instituto público 'Instituto de Formación Tecnica Superior Nº 29' ">
+    <meta name="viewport" content="width=device-width,">
+    <link rel="stylesheet" href="CSS/styles.css"> 
+    <script src="https://kit.fontawesome.com/d9c2cfa81c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <script src="/PFO1/JS/boton.js"></script>
+    <header>
+        <div class="logo">
+            
+            <h2 class="nombre">Portfolio: José Acevedo</h2>
+        </div>
+        <nav>
+            <a href="" class="nav-link">Sobre mi</a>
+            <a href="" class="nav-link">Proyectos</a>
+            <a href="#" class="contacto" id="abrir-modal">Contacto</a>
+
+        </nav>
+
+    </header>
+
+    <img/>
+    
+  <main>
+    
+<!----Tarjeta de Sobre Mi-->
+    <div class="contendedor">
+
+        <div class="tarjeta">
+            <figure>
+                <img src="IMG/fpersonal.png" alt="José Manuel Acevedo">
+            </figure>
+            <div class="contenido">
+                <h1> Sobre mi</h1>
+    <p>Soy José Manuel Acevedo, estudiante de programación apasionado por la tecnología y el desarrollo de soluciones innovadoras. Desde que descubrí el mundo de la programación, me he sentido atraído por la posibilidad de crear aplicaciones que no solo sean funcionales, sino que también mejoren la vida de las personas. Mis intereses giran en torno al desarrollo web y móvil, así como la inteligencia artificial. Mi misión como desarrollador es construir herramientas accesibles y efectivas que ayuden a resolver problemas cotidianos y fomenten la creatividad. Siempre estoy en la búsqueda de nuevos desafíos y oportunidades para aprender y crecer en este emocionante campo. </p>
+  
+            </div>
+        </div>
+<!----Tarjeta de Proyectos-->
+
+        <div class="tarjeta">
+            <figure>
+                
+            </figure>
+            <div class="contenido">
+                <h1> Proyectos</h1>
+    <p>Desarrollar una Página Web moderna que sirva como portal de noticias de la Patagonia, en la cual se pueda escuchar todas las radios de la region argntina como chilena.</p>
+    
+
+            </div>
+        </div>
+<!----Tarjeta de Habilidades-->
+
+        <div class="tarjeta">
+            
+            <div class="contenido">
+                <h1> Habilidades</h1>
+                <table border ="0"> 
+                    <td class="tipo"> Photoshop</td>
+                    <td class="valor"> 60% </td>
+
+                    <tr></tr>
+                    <td class="tipo"> Illustrator</td>
+                    <td class="valor"> 60% </td>
+                    <tr></tr>
+                    <td class="tipo"> After Effect</td>
+                    <td class="valor">50%</td>
+                    <tr></tr>
+                    <td class="tipo"> Adobe Premier</td>
+                    <td class="valor">30%</td>
+                    
+                    <tr></tr>
+                    <td class="tipo"> Blender</td>
+                    <td class="valor">20%</td>
+
+                </table>
+    
+            </div>
+        </div>
+
+        <!--Peliculas Favoritas Slider-->
+    
+        <div class="tarjeta">
+            <div class="contenido">
+                <h1>Películas Favoritas</h1>
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="IMG/pelicula1.png" alt="Película 1">
+                        <h2>The Royal Tenenbaums</h2>
+                        <p>Me gusta la comedia dramatica del director Wes Anderson particularmente de esta pelicuila, no me canso de verla </p>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG/pelicula2.png" alt="Película 2">
+                        <h2>The Big Lebowski</h2>
+                        <p>El Guìon y los actores de reparto me llaman mucho la atenciòn. Un clasico de los Hermanos Cohen</p>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG/pelicula3.png" alt="Película 3">
+                        <h2>Enter the Void</h2>
+                        <p>El misterio despues de la muerte retrado por Gaspar Noe, un viaje al comienzo. Me gustan todas las peliculas de este director aunque hoy se me dificulta ver Irreversible.</p>
+                    </div>
+                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+         </main>
+<!-- Modal para el formulario de contactos -->
+
+<div  class="modal" id="modal">
+    <div class="modal-contenedor">
+      <a href="#" id="cerrar-modal" class="cerrar-modal">X</a>
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre y Apellido:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+  
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+  
+        <button type="submit" id="enviar-btn">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+
+<footer> 
+    <h1>Contactos</h1>
+<div class="redessociales">
+    <a href="#" class="rs">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+</div>
+</footer>
+</body>
+
+</html>

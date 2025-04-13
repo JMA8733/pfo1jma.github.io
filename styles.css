@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.logo   {
+    font-size: x-large;
+}
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: smaller;
+}
+
+.modal{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(110, 106, 106);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+    
+}
+
+.modal-contenedor{
+    width: 90%;
+    max-width: 600px;
+    max-height: 100%;
+    padding: 3em;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    grid-auto-columns: 100%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    }
+    .cerrar-modal{
+        text-decoration: none;
+        color: rgb(156, 212, 212);
+        top: 7px;
+        right: 15px;
+        padding: 1em 3em;
+        border: 1px solid;
+        border-radius: 6px;
+        font-size: 1.8vmin;
+        display: inline-block;
+        transition: background-color .3s;
+        position: absolute;
+    }
+   
+    .modal--show{
+        opacity: 1;
+        display: flex;
+        
+    }
+a{
+    text-decoration: none;
+    color:black
+}
+
+header{
+    display: flex;
+    min-height: 75px;
+    background-color: #cbe3eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    color: rgb(255, 255, 255);
+    height:50px;
+    margin-right: 10px;
+
+}
+
+nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color:white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction:column;
+            }
+    nav{
+        
+        padding:10px 0px;    }
+}
+footer{
+    display: flex;
+    min-height: 75px;
+    background-color: #eef2f3;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.contendedor{
+    width: 100%;
+    display: grid;
+    max-width: 1100px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+.tarjeta{
+    width: 100%;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+
+}
+
+
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.tarjeta img{
+    width: 50%;
+    height: 300px;
+    margin-left: 75px;        
+    
+}
+.tarjeta .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.tarjeta .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+
+}
+.tarjeta .contenido h1{
+
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/*---Habilidades--*/
+.table{
+    border-collapse: collapse;
+    tr{
+        border: 1px solid transparent;
+        border-bottom: 3px solid rgb(0, 0, 0);
+    }
+}
+
+/*----Boton---*/
+
+button{
+
+    background-color: rgb(108, 182, 207);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    color: white;
+    padding: 10px 25px;
+
+} 
+button:hover{
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}
+
+/* Slider de Peliculas  */
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.slide img {
+    width: 80%;
+       height: auto;
+}
+
+.slide.active {
+    display: block;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+/*-Footer-*/
+
+
+
+.redessociales{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 45px;
+    
+}
+.redessociales a{
+    font-size:15px;
+    margin-left: px;
+    
+
+
+}
