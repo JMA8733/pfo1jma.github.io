@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="styles.css"> 
      <link rel="javascript" href="boton.js">
 
-    <script src="boton.js"></script>
+   
     <script src="https://kit.fontawesome.com/d9c2cfa81c.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
+<body class="">
     
-    <header>
+    <header class="">
         <div class="logo">
             
             <h2 class="nombre">Portfolio: José Acevedo</h2>
@@ -33,7 +33,11 @@
     <img/>
     
   <main>
-    
+<!----BOTON NOCHE/DIA LUZ--> 
+
+<div class="modo" id="modo">
+    <i class="fas fa-toggle-on"></i>
+</div>
 <!----Tarjeta de Sobre Mi-->
     <div class="contendedor">
 
@@ -66,7 +70,7 @@
             
             <div class="contenido">
                 <h1> Habilidades</h1>
-                <table border ="0"> 
+                <table class= "tabla" border ="0"> 
                     <td class="tipo"> Photoshop</td>
                     <td class="valor"> 60% </td>
 
@@ -142,8 +146,16 @@
       </form>
     </div>
   </div>
-
-
+<!-- Cuenta Regresiva -->
+<div class="containerr">
+    <h1>Cuenta Regresiva</h1> 
+    <fieldset>
+        <legend class="fecha" id="fecha"></legend>
+        <h2 id="reloj"></h2>    
+    </fieldset>
+    
+    </div>
+</div>
 <footer> 
     <h1>Contactos</h1>
 <div class="redessociales">
@@ -153,7 +165,12 @@
     <i class="fa-brands fa-whatsapp"></i>
 </a>
 </div>
+
+
+
 </footer>
+<!--para que se cargue despues del DOM--> 
+<script src="boton.js"></script>
 </body>
 
 </html>
