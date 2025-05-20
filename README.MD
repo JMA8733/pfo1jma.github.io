@@ -24,5 +24,18 @@ Checklist - Práctica Formativa Obligatoria 1 • Estructura del Proyecto: [x] A
          [x] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto? Respuesta: Implemente un Hover en los botones para darle un toque mas interactivo como así tambien nun Slider de imagenes en la sección de Peliculas Favoritas. • Consideraciones Adicionales: 
          [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos. 
          [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes). 
-         [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación
+         [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
+
+        JAVASCRIPT
+
+          [x] Validación de Formulario con mensajes que informan los requisitos solicitados.
+          [x] Modo Claro/Oscuro. 
+          [x] Temporizador de tiempo de entrega del TP.
+          [x] Galería de Imagenes en la sección de películas.
+          [x] Animación de tarjetas: cada elemento cuando se selecciona se desplaza un poco y aparece una sombra para sobresalir.
+
+      
+
+
+
 
